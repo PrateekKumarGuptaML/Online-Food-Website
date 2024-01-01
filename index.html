@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prestige Food Zone - Homepage</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="cuisines.html">Cuisines</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<main>
+		<section class="hero">
+			<div class="slider-container">
+				<div class="slider" id="slider">
+		
+				</div>
+				<button id="prevBtn" onclick="changeSlide(-1)">Previous</button>
+				<button id="nextBtn" onclick="changeSlide(1)">Next</button>
+			</div>
+			<h1>Welcome to Prestige Food Zone</h1>
+			<p>Buy Our Best Delicious Food  At Very Low Cost And Make Your Day Special</p>
+			<a href="https://www.ubereats.com/" class="btn">Order Now</a>
+		</section>
+		<section class="featured">
+			<h2>Best In Taste!!</h2>
+			<div class="product-grid">
+				<div class="product">
+					<img src="images/chicken-pizza-with-bell-peppers-tomato-cheese-round-wooden-board_140725-10493.avif"
+						alt="Product 1">
+					<h3>Chicken Cheese Pizza</h3>
+					<span class="price">$4.99</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/1668625120946.jpeg"
+						alt="Product 2">
+					<h3>Pate</h3>
+
+					<span class="price">$3.99</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/chiken-lolipop-1.jpg" alt="Product 3">
+					<h3>Chicken Lollipop</h3>
+					<span class="price">$9.99</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/default-pasta.jpg"
+						alt="Product 4">
+					<h3>Pasta </h3>
+					<span class="price">$2.55</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/itallian.jpg"
+						alt="Product 1">
+					<h3> Italian Sausage Pasta</h3>
+					<span class="price">$3.59</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/italian1.jpg"
+						alt="Product 2">
+					<h3>Sicilian Baked Pasta</h3>
+
+					<span class="price">$3.99</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg"
+						alt="Product 1">
+					<h3> Spicy Chicken Curry</h3>
+					<span class="price">$9.59</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+				<div class="product">
+					<img src="images/dhaba-style-paneer-masala-recipe.jpg"
+						alt="Product 2">
+					<h3>Paneer Masala</h3>
+
+					<span class="price">$4.79</span>
+					<button class="add-to-cart-btn">Add to Cart</button>
+					
+				</div>
+			</div>
+		</section>
+		
+		<section class="contact-us">
+			<h2>Contact Us</h2>
+
+			<form action="submit.php" method="post">
+				<label for="name" style="display: block;">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email" style="display: block;">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message" style="display: block;">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+
+	</main>
+	<footer>
+		<div class="footer-info">
+			<p>Prestige Food Zone</p>
+			<p>123 Main Street, New York, NY 10001</p>
+			<p>Phone: 555-555-5555</p>
+			<p>Email: info@prestigefoodzone.com</p>
+		</div>
+
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
